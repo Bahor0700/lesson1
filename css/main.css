@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
+}
+
+button {
+    background: transparent;
+}
+
+.contenr {
+    width: 800px;
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px red;
+    margin: auto;
+    background-color: rgb(125, 12, 59);
+    margin: 0 auto;
+    padding: 0 20px
+}
+
+.text {
+    line-height: 400px;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 700;
+    color: blue;
+    text-transform: capitalize;
+    text-decoration: line-through;
+    text-shadow: 0px 0px 5px red;
+}
